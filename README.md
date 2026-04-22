@@ -4,8 +4,8 @@ This project uses machine learning to predict the risk associated with loan appl
 
 ## Features
 
-- Benchmarks Naive Bayes, KNN, Decision Tree and plots a ROC curve
 - Data preprocessing and cleaning
+- Benchmarks Naive Bayes, KNN, Decision Tree and plots a ROC curve
 - Model training and evaluation
 - Predicting loan applicant risk
 - Easy-to-use scripts for training and prediction
