@@ -1,9 +1,10 @@
 # Loan Risk Prediction
 
-This project uses machine learning to predict the risk associated with loan applicants based on historical data. It provides scripts for training a model and making predictions, helping financial institutions assess loan applications more efficiently.
+This project uses machine learning to predict the risk associated with loan applicants based on historical data. It provides scripts for training three classification models, compares their performance, and chooses the best model to predict loan risk - helping financial institutions assess loan applications more efficiently.
 
 ## Features
 
+- Benchmarks Naive Bayes, KNN, Decision Tree and plots a ROC curve
 - Data preprocessing and cleaning
 - Model training and evaluation
 - Predicting loan applicant risk
@@ -27,6 +28,11 @@ loan_risk.py
 
 ```sh
 pip install -r requirements.txt
+```
+### Compare three models
+
+```sh
+python loan_risk.py
 ```
 
 ### Training the Model
